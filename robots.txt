@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://steve19860004.github.io/murim-guide/sitemap.xml

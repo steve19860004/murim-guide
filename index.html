@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>轉生武林 攻略｜境界、武功、心法、36 組合擊全圖鑑、奇緣選項</title>
+<meta name="description" content="轉生武林（Murim Rebirth）完整攻略：13 大境界順序、主線地圖與首領掉落、50+ 門武功與 23 部心法、36 組合擊全圖鑑（可依效果篩選、搜尋武功）、奇緣選項結果、八大門派巡禮、轉生與裝備靈獸時裝、武神塔與比武大會規則。">
+<meta name="keywords" content="轉生武林,轉生武林攻略,Murim Rebirth,轉生武林 合擊,轉生武林 武功,轉生武林 奇緣,轉生武林 門派巡禮,放置武俠">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://steve19860004.github.io/murim-guide/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="轉生武林 攻略站">
+<meta property="og:description" content="境界、武功、心法、36 組合擊全圖鑑、奇緣選項與門派巡禮完整整理。">
+<meta property="og:url" content="https://steve19860004.github.io/murim-guide/">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"轉生武林 攻略：境界、武功、心法、36 組合擊全圖鑑","inLanguage":"zh-Hant","about":{"@type":"VideoGame","name":"轉生武林","alternateName":"Murim Rebirth","gamePlatform":"Android"},"dateModified":"2026-11-12","mainEntityOfPage":"https://steve19860004.github.io/murim-guide/"}</script>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}img{max-width:100%}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;900&display=swap">
+<style>
+/* Layout: an ink scroll — sticky chapter bar on top, one reading column of chapters, combo atlas as the one interactive centrepiece */
+:root{
+  --paper:#eef1ef; --sheet:#f8faf9; --ink:#1b2327; --ink-2:#4a585e; --rule:#cfd8d5;
+  --jade:#2c7a67; --jade-soft:#d7ebe4; --seal:#b3362d;
+  --f-brush:"Ma Shan Zheng","Noto Serif TC",serif;
+  --f-head:"Noto Serif TC","Songti TC",serif;
+  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#11171a; --sheet:#182024; --ink:#e3ebe8; --ink-2:#9fb0ab; --rule:#2c393e;
+  --jade:#5fbfa5; --jade-soft:#1d3a33; --seal:#e0685d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#11171a; --sheet:#182024; --ink:#e3ebe8; --ink-2:#9fb0ab; --rule:#2c393e;
+  --jade:#5fbfa5; --jade-soft:#1d3a33; --seal:#e0685d; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--sheet)}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.hero{padding-block:48px 28px;border-bottom:1px solid var(--rule)}
+.hero-row{display:flex;gap:20px;align-items:flex-end;flex-wrap:wrap}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hero h1{font-family:var(--f-brush);font-weight:400;font-size:clamp(52px,11vw,96px);line-height:1;margin:0;letter-spacing:.04em}
+.seal{font-family:var(--f-head);font-weight:900;color:var(--seal);border:2px solid var(--seal);border-radius:4px;padding:4px 6px;writing-mode:vertical-rl;font-size:15px;line-height:1.1;letter-spacing:.1em;margin-bottom:8px}
+.hero p{max-width:62ch;color:var(--ink-2);margin:16px 0 0}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:18px;font-size:13px;color:var(--ink-2)}
+.facts b{font-variant-numeric:tabular-nums;color:var(--ink);font-size:18px;margin-right:4px;font-family:var(--f-head)}
+nav.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--sheet);border-bottom:1px solid var(--rule)}
+nav.bar .wrap{display:flex;gap:4px;overflow-x:auto;padding-block:8px;scrollbar-width:none}
+nav.bar a{flex:none;color:var(--ink-2);text-decoration:none;padding:4px 10px;border-radius:999px;font-size:13px;white-space:nowrap}
+nav.bar a:hover,nav.bar a:focus-visible{background:var(--jade-soft);color:var(--ink);outline:none}
+main section{padding-block:40px 8px;scroll-margin-top:60px}
+h2{font-family:var(--f-head);font-weight:900;font-size:26px;margin:0 0 6px;text-wrap:balance;display:flex;align-items:baseline;gap:12px}
+h2 .zh{font-family:var(--f-brush);font-weight:400;color:var(--jade);font-size:32px}
+h3{font-family:var(--f-head);font-weight:600;font-size:18px;margin:26px 0 8px}
+.lead{color:var(--ink-2);max-width:68ch;margin:0 0 14px}
+p,li{max-width:70ch}
+ul,ol{padding-left:1.3em}
+.tbl{overflow-x:auto;border:1px solid var(--rule);border-radius:6px;background:var(--sheet)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:700;font-size:12px;letter-spacing:.06em;color:var(--ink-2);background:var(--paper)}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:500;white-space:nowrap}
+.num{font-variant-numeric:tabular-nums}
+.note{font-size:13px;color:var(--ink-2)}
+/* combo atlas */
+.atlas-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
+.atlas-tools input{flex:1 1 220px;min-width:0;font:inherit;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink)}
+.atlas-tools input:focus-visible{outline:2px solid var(--jade);outline-offset:1px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:999px;padding:3px 11px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--jade);border-color:var(--jade);color:var(--sheet)}
+.chip:focus-visible{outline:2px solid var(--jade);outline-offset:2px}
+.chip small{opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
+.group{margin-top:18px}
+.group h4{font-family:var(--f-head);font-size:15px;margin:0 0 8px;display:flex;gap:10px;align-items:baseline}
+.group h4 span{font-size:12px;color:var(--ink-2);font-family:var(--f-body);font-weight:400}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.card{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:10px 12px;min-width:0}
+.card .nm{font-family:var(--f-head);font-weight:900;font-size:17px}
+.card .pair{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin-top:4px;font-size:13px}
+.art{background:var(--jade-soft);border-radius:4px;padding:0 6px;cursor:pointer;border:0;font:inherit;color:var(--ink)}
+.art.hit{background:var(--jade);color:var(--sheet)}
+.plus{color:var(--ink-2)}
+.empty{color:var(--ink-2);padding:12px 0}
+.hub{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+footer{padding-block:40px;color:var(--ink-2);font-size:13px;border-top:1px solid var(--rule);margin-top:40px}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="hero-row"><h1>轉生武林<span class="vh"> 攻略</span></h1><div class="seal">攻略</div></div>
+  <p>從《轉生武林》(Murim Rebirth) v1.4.5 安裝包內的遊戲文字資料整理的完整攻略：境界、地圖、武功、心法、36 組合擊、奇緣選項、門派巡禮與各項玩法。</p>
+  <div class="facts"><span><b>13</b>大境界</span><span><b>36</b>組合擊</span><span><b>50+</b>門武功</span><span><b>23</b>部心法</span><span><b>8</b>大門派</span></div>
+</div></header>
+
+<nav class="bar" aria-label="章節"><div class="wrap" id="nav"></div></nav>
+
+<main class="wrap">
+
+<section id="loop"><h2><span class="zh">循環</span>核心循環</h2>
+<p class="lead">放置型武俠 RPG：戰鬥全自動，你負責「修煉 → 突破 → 卡關就轉生」。前世的天下第一人敗給天魔，主角轉生為被滅門世家的么子，從三流一路爬到天下第一，再越過天外天直至仙界。</p>
+<ol>
+<li><b>狩獵</b>：自動推進關卡，擊殺得銀兩、精煉石，偶爾出現奇緣卷軸（戰鬥畫面右上角）。</li>
+<li><b>修煉</b>（花銀兩，長按連續升級）：筋力→攻擊、外功→體力、身法→攻速與冷卻、眼力→暴擊、運氣→內力。筋力/外功在 Lv.10·25·50… 節點效果再翻倍。</li>
+<li><b>心法</b>：運轉中的心法隨時間累積內力與熟練；內力提升攻擊/體力，也是突破條件。</li>
+<li><b>突破</b>：內力夠就突破境界，得能力值與內力修煉倍率、武功欄位；已到過的境界可開「自動突破」。</li>
+<li><b>首領</b>：區域首領掉秘笈殘頁，集滿習得新武功；打不過會退一關後自動重試。</li>
+<li><b>轉生</b>：一流以上可轉生換「領悟」。遊戲提示：<b>從毒谷開始，今生之力難以支撐，該轉生了。</b></li>
+</ol>
+<p class="note">資源：銀兩（修煉，轉生歸零）· 精煉石（精煉裝備，保留）· 元寶（召喚、增益、時裝）。</p>
+</section>
+
+<section id="realm"><h2><span class="zh">境界</span>境界進度</h2>
+<p class="lead">13 個大境界，各分初期·中期·後期。首次突破各境界累計送元寶 15,600；後 4 個為仙界更新加入，突破即習得境界武功。</p>
+<div class="tbl"><table id="t-realm"></table></div></section>
+
+<section id="map"><h2><span class="zh">江湖</span>主線地圖與首領</h2>
+<p class="lead">主線：復仇線 7 區 → 心魔界 → 正派名門 4 區 → 天外天。關卡編號為「區-關」，境界不足無法進入下一區。殘頁每次擊敗首領都掉，轉生後可再刷。</p>
+<div class="tbl"><table id="t-map"></table></div>
+<p class="note">一個首領對應兩門武功時，殘頁數的對應依字串順序推定；第 1–7 區首領掉哪門基礎武功未能從程式碼解出，請看遊戲內「獲得途徑」。</p></section>
+
+<section id="arts"><h2><span class="zh">武功</span>武功一覽</h2>
+<p class="lead">越施展越熟練，每升一階解鎖一項特性：入門 → 小成 → 中成 → 大成 → 圓熟 → 極成 → 超凡 → 入神 → 返璞歸真。越後面的區域熟練漲越快。</p>
+<div id="arts-wrap"></div></section>
+
+<section id="combo"><h2><span class="zh">合擊</span>合擊全圖鑑 36/36</h2>
+<p class="lead">同時裝備配對的兩門武功即可觸發合擊效果。依效果篩選，或輸入武功名稱，找出它能組的所有合擊。</p>
+<div class="atlas-tools">
+  <input id="combo-q" type="search" placeholder="搜尋武功或合擊，例如：血影刀法" aria-label="搜尋武功或合擊">
+</div>
+<div class="chips" id="combo-chips" role="group" aria-label="依效果篩選"></div>
+<div id="combo-out"></div>
+<h3>核心武功（出現在多組合擊）</h3>
+<div class="hub" id="combo-hub"></div>
+</section>
+
+<section id="mind"><h2><span class="zh">心法</span>心法一覽</h2>
+<p class="lead">同時只運轉一部心法。熟練各自保留，且「心法之理相通」：其他心法練得越高，新心法學得越快。正·陰·陽·魔系心法強化同系武功。</p>
+<div class="tbl"><table id="t-mind"></table></div>
+<p class="note">效果括號（暴擊、冷卻…）依描述推定，實際數值看遊戲內詳情頁。</p></section>
+
+<section id="event"><h2><span class="zh">奇緣</span>奇緣攻略</h2>
+<ul>
+<li><b>修煉奇緣兩條路</b>：冒險選項成功給 2 頁，失敗「負傷」（1 分鐘攻擊 -30%）；穩健選項成功給 1 頁，失敗只是沒收穫。負傷懲罰很輕，沒在衝關時建議走冒險路。</li>
+<li><b>結局收集</b>：同一奇緣選不同路解鎖新結局，填入「奇緣錄」。已見結局只給很少熟練，優先選還有空格的路；格子全滿後該修煉奇緣不再出現。</li>
+</ul>
+<h3>武功系列奇緣</h3><div class="tbl"><table id="t-ev1"></table></div>
+<h3>其他奇緣</h3><div class="tbl"><table id="t-ev2"></table></div>
+</section>
+
+<section id="sect"><h2><span class="zh">巡禮</span>門派巡禮</h2>
+<p class="lead">依序打贏門下五人，每勝得殘頁與友誼，集滿 30 張習得該派武功。拜帖只在獲勝時消耗，每日零點補滿，看廣告每日可多 1 張。</p>
+<ol>
+<li>友誼階段：訪客 → 相識 → 好友 → 貴賓 → 客卿。好友送門派武服，貴賓/客卿送名號。</li>
+<li>友誼夠高後隱居高手願意相見，首勝得大量熟練與肖像。</li>
+<li>最後挑戰前代掌門，勝利得「真傳」時裝與名號；八派皆成客卿再得「天下客卿」。</li>
+<li>崑崙、野獸宮、布達拉宮、慕容家另有門派心法：武功練到指定熟練並再勝掌門才傳授。</li>
+</ol>
+<div class="tbl"><table id="t-sect"></table></div></section>
+
+<section id="rebirth"><h2><span class="zh">轉生</span>轉生</h2>
+<p class="lead">達到一流即可轉生。領悟由本世的最高關卡與境界決定，每超過以往最高一關另有新紀錄加成，所以每世都要比上一世走得更遠再轉。</p>
+<div class="tbl"><table>
+<tr><th>失去</th><th>保留</th></tr>
+<tr><td style="white-space:normal">境界、內力、銀兩、修煉等級、關卡進度</td><td>武功·心法熟練與已學秘笈、已裝備武功與欄位、前世特性·領悟、裝備（含精煉）·靈獸·時裝、元寶·精煉石·召喚券·秘境鑰匙、秘境紀錄、增益、已購商品、任務進度</td></tr>
+</table></div>
+<ul>
+<li>前世特性可永久提升攻擊·體力·內力修煉，包括轉生後立即持有內力（10 年 × 4 倍/階）、離線上限、自動絕招、首領戰時間等。</li>
+<li>「輪迴之緣」隨轉生次數提高內力修煉倍率；商店「轉生符」讓領悟 +50%。</li>
+</ul></section>
+
+<section id="gear"><h2><span class="zh">寶物</span>裝備、靈獸、時裝</h2>
+<p class="lead">三者都永久保留，且都有持有效果：不必裝備或出戰，持有就累加加成，所以收集種類比只衝一件更划算。</p>
+<h3>裝備</h3>
+<ul>
+<li>兵器（攻擊）、衣服（體力）、飾品三部位，寶物召喚三者機率相同；召喚越多「召喚等級」越高，越易出高品。另有 ★1–★4 星級。</li>
+<li>品名：凡品、良品、上品、極品、仙品、神品，後期再加聖品、天品（共 8 階）。</li>
+<li>精煉每級效果 +2%；4 件相同合成高一階，一鍵合成會每種留 1 件保持持有效果。</li>
+</ul>
+<div class="tbl"><table id="t-gear"></table></div>
+<h3>靈獸</h3>
+<p>重複獲得為升階材料，滿級後重複退還元寶。未出戰的也全部生效。</p>
+<div class="tbl"><table id="t-pet"></table></div>
+<h3>時裝</h3>
+<p>穿著效果取持有中最好的一件，外觀自由選；圖鑑則每件都加攻擊·體力與內力修煉，集齊一套再額外加成。來源：元寶購買、里程碑特典（擊敗天魔→破天武服、自然境→自然道袍、天外天 70 層→天外神衣、仙界四境界各一件）、門派巡禮、節慶活動。</p>
+</section>
+
+<section id="modes"><h2><span class="zh">玩法</span>日常與終局玩法</h2>
+<div class="tbl"><table id="t-modes"></table></div>
+<ul>
+<li>武神塔每週規則例：某系武功傷害 ×2、其他 ×0.6；絕招封印（首領體力 ×0.6）；限時 15 秒（首領體力 ×0.5）；首領攻擊 ×2、自身傷害 ×1.5。</li>
+<li>天外天關口：10、30、50、60、70 層守門將（70 層為前世之影），之後每 10 層有功勳，100 層起每 50 層有知名守門將；再往後是虛空界、太虛、萬象界、九天、仙界門檻。</li>
+<li>增益（30 分鐘，可疊加）：鬥志（攻擊 ×1.5、武功熟練 ×1.5）、運氣加速（內力 ×2）、財運（銀兩 ×2）、自動修煉。第一次免費。</li>
+</ul></section>
+
+<section id="route"><h2><span class="zh">心得</span>推薦路線與技巧</h2>
+<h3>階段路線</h3>
+<ol>
+<li><b>第一世</b>：開自動修煉，先堆筋力·外功到 Lv.10/25/50 節點；三才劍法 + 三才心法，奇緣必點。打到毒谷卡關、至少一流就轉生。</li>
+<li><b>前幾世</b>：每世比上一世多推幾關再轉。領悟優先點轉生後立即持有內力、內力修煉、攻擊。每天掃蕩三個秘境。</li>
+<li><b>中期</b>：同系心法搭同系武功（九陽神功＋陽系、九陰真經＋陰系、血河魔功＋魔系），並組合擊。狩獵用群攻，首領戰換即死系，用「武功·心法預設」一鍵切換。</li>
+<li><b>後期</b>：名門首領給心法（金剛不壞功保命、太極神功縮冷卻）；門派巡禮每天打滿拜帖；天外天每天用滿新樓層額度；武神塔、比武大會每週跑。</li>
+</ol>
+<h3>技巧</h3>
+<ul>
+<li>打不過首領：開鬥志、換「推薦→首領」配置，修煉後按左下角「再挑戰」。</li>
+<li>即死特性對首領特別強：無極 30%、血洗/鬼哭魂斷 20%、冰鎖/天下無狗/一念 15%。</li>
+<li>破甲是同系加成：獨孤九劍拉正系、血雷掌拉魔系、玄冥神掌/幽魂鎖拉陰系、大手印/五虎斷門刀拉陽系。</li>
+<li>練新武功時用「重複狩獵」在今生最高的非首領關掛機。</li>
+<li>召喚券優先於元寶使用；召喚等級會累積。</li>
+</ul></section>
+
+<section id="about"><h2><span class="zh">說明</span>資料來源與限制</h2>
+<p>本站依據安裝包內 13 種語言文字檔（3,159 條）、美術資源檔名與 libapp.so 字串表整理。突破所需內力、武功基礎威力與冷卻、召喚機率等數值編譯在機器碼中，未列入；寫出的百分比與秒數是遊戲內顯示文字。合擊 36 組資料由玩家整理補全。</p>
+<p class="note">遊戲內建「資料核查」：偵測到修改版程式、變速工具或異常元寶時會要求重新開始並清除本機與雲端存檔。</p>
+</section>
+</main>
+<footer><div class="wrap">轉生武林攻略站 · 依 v1.4.5 整理 · 2026-11-12</div></footer>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function table(id,head,rows){const t=$(id);t.innerHTML='<tr>'+head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'+rows.map(r=>'<tr>'+r.map(c=>`<td>${esc(c)}</td>`).join('')+'</tr>').join('');}
+
+// nav
+document.querySelectorAll('main section').forEach(s=>{const a=document.createElement('a');a.href='#'+s.id;a.textContent=s.querySelector('h2').lastChild.textContent;$('#nav').appendChild(a);});
+
+table('#t-realm',['#','境界','描述 / 重點'],[
+['1','三流','起點；首個任務「二流突破」'],['2','二流','在江湖上報得出名號'],['3','一流','能發出劍氣的高手；解鎖轉生'],['4','絕頂','劍罡凝聚，屈指可數'],['5','超絕頂','足以成為一派支柱'],['6','化境','躋身天下高手之列；化境突破禮包'],['7','玄境','武功融入身體，返老還童'],['8','生死境','越過生死的界線'],['9','自然境','與自然合一的天下第一人；送自然道袍'],['10','神化境','習得開天闢地；後期習得太虛劍訣；送神化法衣'],['11','如意境','習得無形心劍；送如意雲衣'],['12','天人境','習得天雷九變；送天人鶴氅衣'],['13','羽化登仙','習得羽化飛仙劍；送羽化仙衣']]);
+
+table('#t-map',['區域','一般敵人','首領','秘笈殘頁'],[
+['1 黑風寨','山賊嘍囉、飢餓野狼','黑風寨主','1 張'],['2 洛陽暗巷','黑道潑皮、下五門刺客','黑蛇幫主','4 / 3 張'],['3 四川毒谷','金線毒蟾、毒王門下','毒王','4 張'],['4 崑崙雪山','雪狼、崑崙冰劍手','白虎山君','6 張'],['5 血教寺院','血教徒、殭屍','血魔','6 / 8 張'],['6 天魔神教外院','魔教武士、魔教護法','魔教副教主','8 張'],['7 天魔神教總壇','魔教長老','天魔','11 張'],['心魔界','心魔','心魔王','—'],['嵩山少林寺','羅漢僧、棍僧','少林方丈','羅漢拳 7 / 達摩劍法 8；金剛不壞功'],['武當山','武當道士、劍手','武當掌門','太極拳 7 / 兩儀劍法 8；太極神功'],['華山','華山劍手、梅花劍手','梅花劍尊','梅花劍法 8；紫霞神功'],['丐幫總舵','乞丐、丐幫長老','丐幫幫主','降龍十八掌 9 / 打狗棒法 7；醉仙功'],['天外天','各層守門將','70 層前世之影','14 張（推測為無極劍）']]);
+
+const ARTS=[
+['主線與早期武功',['武功','類型','特色','代表特性'],[
+['三才劍法','劍法','初始武功','天地人三連擊（打擊數 +1）'],['猛虎拳','拳法','剛拳重擊','虎王一擊（+150%）'],['流雲劍法','劍法','懸崖下的山洞','雲海（連擊 +2）'],['彈指神通','指法','快速指風','雙指（打擊數 +1）'],['八卦掌','掌法','攻擊八方','太極八卦（+120%）'],['萬毒手','掌法','毒谷採藥人','中毒 250%、毒功大成（+200%）'],['冰魄劍法','劍法','冰封的劍客','冰鎖（15% 以下即死）'],['以氣御劍術','劍法','鏡中之劍','萬劍歸宗（飛劍 +1）'],['血影刀法','刀法','血教祭壇','血洗（20% 以下即死）'],['九陽神掌','掌法','太陽熾熱一掌','大日如來（全體）'],['追魂劍','劍法','藏身暗影攻要害','—'],['血魔大法','魔功','血魔的禁忌大法','血海（全體）'],['天魔劍','劍法','魔道最強之劍','天魔君臨（+200%）'],['無極劍','劍法','前世自己的極致','無極（30% 以下即死）']]],
+['正派名門武功',['武功','類型','特性','絕招'],[
+['羅漢拳','拳法','暈眩 0.5 秒','十八羅漢（+200%）'],['達摩劍法','劍法','大範圍、吸血 5%','達摩東來（+200%）'],['太極拳','拳法','吸血 8%','太極生兩儀（連擊 +2）'],['兩儀劍法','劍法','劍氣 +1，貫穿','兩儀合璧（+200%）'],['梅花劍法','劍法','連擊 +2','梅花滿開（連擊 +4）'],['降龍十八掌','掌法','全體、暈眩 1 秒','亢龍有悔（+250%）'],['打狗棒法','棒法','暈眩 0.4 秒','天下無狗（15% 以下即死）']]],
+['奇緣武功',['武功','類型','殘頁 / 來源','主要特性','絕招'],[
+['滿天花雨','暗器','6 · 唐家的試煉','中毒 40%、暗器 +2','滿天毒雨（+150%）'],['玄冥神掌','掌法','6 · 冰窟老怪','緩速、破甲（陰系 +25%）','玄冥寒氣（+300%）'],['九陰白骨爪','爪法','7 · 荒廢古墓','出血 6%、暴擊 +10%、即死 12%','九陰絕脈（+200%）'],['獅子吼','音功','6 · 少林藏經閣','全體暈眩 1 秒、護身罡氣 8%','獅子吼一聲（+200%）'],['六脈神劍','指法','8 · 天龍寺高僧','劍氣 +2、連環 25%','無形劍氣（+200%）'],['獨孤九劍','劍法','8 · 思過崖老劍客','破甲（正系 +20%）','無招勝有招（+200%）'],['月影槍法','槍法','7 · 無月之夜的槍客','暴擊 +10%、即死 12%','月蝕（+300%）'],['幽魂鎖','鎖法','7 · 廢祠堂的鎖鏈','緩速 2 秒、破甲（陰系 +15%）','萬魂鎖（+300%）'],['血龍鞭','鞭法','7 · 血色長鞭的老嫗','出血 5%、打擊數 +1','血龍昇天（+250%）'],['吸星大法','魔功','8 · 地下牢獄的老人','吸血 8%','星力歸元（+300%）'],['星河劍法','劍法','9 · 銀河之畔 / 天外天守門將','連環 20%','銀河墜落（+150%）'],['奪魂魔刀','刀法','—','吸血 5%、暴擊 +15%','鬼哭魂斷（+150%）'],['血雷掌','掌法','—','破甲（魔系 +25%）、暈眩 1 秒','血雷滿天（+150%）'],['玄冰劍','劍法','—','緩速 2 秒，貫穿','冰天絕（+150%）']]],
+['門派巡禮武功（各 30 張）',['武功','門派','類型','特性','絕招'],[
+['射日劍法','點蒼派','劍法','連環 10%','九日落下（+80%）'],['五虎斷門刀','河北彭家','刀法','破甲（陽系 +15%）','五虎雙絕（+100%）'],['開山斧法','綠林','斧法','即死 10%、暈眩 0.8 秒','劈山一斧（+120%）'],['摧心掌','青城派','掌法','出血 6%','斷心（+150%）'],['雲龍大八式','崑崙派','身法','連環 15%、身形 +1','雲龍翻身（+150%）'],['百獸拳','南蠻野獸宮','拳法','吸血 3%','百獸亂舞（+150%）'],['大手印','布達拉宮','掌法','暈眩 1 秒、破甲（陽系 +20%）','如來神掌（+150%）'],['參合指','慕容世家','指法','暴擊 +15%、指風 +1','星移指（+150%）']]],
+['境界武功（突破即得）',['武功','突破','特性','絕招'],[
+['開天闢地','神化境','破甲（受傷 +30%）、暈眩 1.5 秒','天地開闢（+200%）'],['太虛劍訣','神化境後期','護身罡氣 15%、連環 25%','虛空劍（+150%）'],['無形心劍','如意境','暴擊 +20%、即死 15%','無形（+200%）'],['天雷九變','天人境','暈眩 0.5 秒、破甲（受傷 +30%）','九天雷霆（+200%）'],['羽化飛仙劍','羽化登仙','吸血 5%、連環 30%','飛仙（+250%）']]]];
+$('#arts-wrap').innerHTML=ARTS.map((g,i)=>`<h3>${esc(g[0])}</h3><div class="tbl"><table id="t-art${i}"></table></div>`).join('');
+ARTS.forEach((g,i)=>table('#t-art'+i,g[1],g[2]));
+
+// combos
+const COMBOS=[
+['打擊數','六脈彈指','六脈神劍','彈指神通','打擊數 +2'],['打擊數','三才流雲','三才劍法','流雲劍法','打擊數 +2'],['打擊數','星日落下','星河劍法','射日劍法','打擊數 +1'],['打擊數','參合六脈','參合指','六脈神劍','打擊數 +1'],
+['暴擊','華山劍訣','獨孤九劍','梅花劍法','暴擊 +10%'],['暴擊','九陰冰魄','九陰白骨爪','冰魄劍法','暴擊 +10%'],['暴擊','無極兩儀','無極劍','兩儀劍法','暴擊 +10%'],['暴擊','百獸之王','百獸拳','猛虎拳','暴擊 +10%'],['暴擊','月下飛仙','月影槍法','羽化飛仙劍','暴擊 +10%'],
+['暈眩','丐幫絕技','降龍十八掌','打狗棒法','暈眩 +0.5 秒'],['暈眩','少林羅漢','羅漢拳','獅子吼','暈眩 +0.5 秒'],['暈眩','刀斧雙絕','五虎斷門刀','開山斧法','暈眩 +0.5 秒'],['暈眩','密宗佛音','大手印','獅子吼','暈眩 +0.5 秒'],['暈眩','九天血雷','血雷掌','天雷九變','暈眩 +0.5 秒'],
+['緩速','冰魄玄冥','冰魄劍法','玄冥神掌','緩速 +1.5 秒'],['緩速','八卦太極','八卦掌','太極拳','緩速 +1.5 秒'],['緩速','玄冰玄冥','玄冰劍','玄冥神掌','緩速 +1.5 秒'],['緩速','月下冰影','月影槍法','玄冰劍','緩速 +1.5 秒'],
+['出血','摧心血影','摧心掌','血影刀法','出血 +5%'],['出血','血龍影刀','血龍鞭','血影刀法','出血 +5%'],['出血','雙刀斷魂','奪魂魔刀','五虎斷門刀','出血 +5%'],['出血','幽魂白骨','幽魂鎖','九陰白骨爪','出血 +5%'],
+['吸血','血海魔功','血影刀法','血魔大法','吸血 +3%'],['吸血','天魔血影','天魔劍','血影刀法','吸血 +3%'],['吸血','吸星血魔','吸星大法','血魔大法','吸血 +3%'],
+['連環','射日雲龍','射日劍法','雲龍大八式','連環 +10%'],['連環','御劍無極','以氣御劍術','無極劍','連環 +10%'],['連環','太虛無形','太虛劍訣','無形心劍','連環 +10%'],
+['破甲','天魔血龍','血龍鞭','天魔劍','破甲 +10%'],['破甲','開天如來','開天闢地','大手印','破甲 +10%'],
+['護身罡氣','達摩太極','達摩劍法','太極拳','護身罡氣 +5%'],['護身罡氣','羽化登虛','羽化飛仙劍','太虛劍訣','護身罡氣 +5%'],
+['即死','無形無招','無形心劍','獨孤九劍','即死 +5%p'],
+['正系威力','太極兩儀','太極拳','兩儀劍法','正系武功威力 +15%'],
+['冷卻','九陽猛虎','九陽神掌','猛虎拳','冷卻 -15%'],
+['中毒','萬毒花雨','萬毒手','滿天花雨','中毒 +100%']];
+const CATS=[...new Set(COMBOS.map(c=>c[0]))];
+let cat='全部',q='';
+function store(k,v){try{v===undefined?0:localStorage.setItem(k,v);return localStorage.getItem(k)}catch(e){return null}}
+const savedCat=store('combo-cat'); if(savedCat&&(CATS.includes(savedCat)||savedCat==='全部'))cat=savedCat;
+function chips(){$('#combo-chips').innerHTML=['全部',...CATS].map(c=>{const n=c==='全部'?COMBOS.length:COMBOS.filter(x=>x[0]===c).length;return `<button class="chip" type="button" data-c="${esc(c)}" aria-pressed="${c===cat}">${esc(c)}<small>${n}</small></button>`}).join('');}
+function render(){
+  const qq=q.trim();
+  const list=COMBOS.filter(c=>(cat==='全部'||c[0]===cat)&&(!qq||c.slice(1,4).some(s=>s.includes(qq))));
+  if(!list.length){$('#combo-out').innerHTML=`<p class="empty">沒有符合「${esc(qq)}」的合擊。試試其他武功名稱，或清空搜尋。</p>`;return;}
+  const groups=CATS.filter(g=>list.some(c=>c[0]===g));
+  $('#combo-out').innerHTML=groups.map(g=>{const items=list.filter(c=>c[0]===g);return `<div class="group"><h4>${esc(items[0][4])}<span>${items.length} 組</span></h4><div class="cards">`+items.map(c=>`<div class="card"><div class="nm">${esc(c[1])}</div><div class="pair">${[c[2],c[3]].map(a=>`<button type="button" class="art${qq&&a.includes(qq)?' hit':''}" data-a="${esc(a)}">${esc(a)}</button>`).join('<span class="plus">＋</span>')}</div></div>`).join('')+'</div></div>'}).join('');
+}
+$('#combo-chips').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;cat=b.dataset.c;store('combo-cat',cat);chips();render();});
+$('#combo-q').addEventListener('input',e=>{q=e.target.value;render();});
+document.addEventListener('click',e=>{const b=e.target.closest('.art');if(!b)return;q=b.dataset.a;$('#combo-q').value=q;cat='全部';chips();render();$('#combo-q').scrollIntoView({block:'center'});});
+const cnt={};COMBOS.forEach(c=>[c[2],c[3]].forEach(a=>cnt[a]=(cnt[a]||0)+1));
+$('#combo-hub').innerHTML=Object.entries(cnt).filter(([,n])=>n>=2).sort((a,b)=>b[1]-a[1]).map(([a,n])=>`<button type="button" class="art" data-a="${esc(a)}">${esc(a)} ×${n}</button>`).join('');
+chips();render();
+
+table('#t-mind',['心法','效果','獲得'],[
+['吐納法','最基礎的呼吸法','初始'],['三才心法','搭配三才劍法的正宗心法','早期'],['太清神功','正系武功變強','奇緣：武當山道人'],['萬毒不侵功','陰系武功變強','主線（毒谷一帶）'],['九陽神功','陽系武功變強','奇緣：猿腹中的經書'],['血河魔功','魔系；斬敵越多內力越多','主線（血教一帶）'],['天魔神功','天魔的絕對心法','主線（天魔）'],['自然神功','與天地合一的終極心法','後期主線'],['金剛不壞功','大幅減傷','擊敗少林方丈'],['太極神功','更頻繁施展武功（冷卻）','擊敗武當掌門'],['紫霞神功','直擊要害（暴擊）','擊敗梅花劍尊'],['醉仙功','斬敵越多收穫越多（銀兩）','擊敗丐幫幫主'],['蒼穹心法','氣勢充盈（絕招充能）','奇緣：南宮世家的後人'],['冰心訣','面對強敵更鋒銳（對首領）','奇緣：峨眉山的女尼'],['九陰真經','陰系變強、更易看破要害','奇緣：黑衣女子（選接過經書）'],['上清無上神功','招式迴轉更快','崑崙掌門（雲龍大八式入神）'],['獸王心法','每次狩獵氣勢更盛','野獸宮宮主（百獸拳入神）'],['龍象般若功','敵人越龐大力道越沉','布達拉宮法王（大手印返璞歸真）'],['斗轉星移','將來力轉向送回','慕容家主（參合指返璞歸真）'],['神化神功','天地之氣匯聚','仙界階段'],['如意神功','心之所至，內力先至','仙界階段'],['天人合一功','所受傷害卸入天地','仙界階段'],['先天一氣功','不分正魔，吞納萬氣','仙界階段']]);
+
+table('#t-ev1',['引子 → 修煉奇緣','冒險（2 頁）','穩健（1 頁）','獲得'],[
+['四川唐家的書信 → 唐家的試煉','衝進暗器雨正中央','看破機關空隙','滿天花雨'],['冰窟老怪 → 忍受寒毒','將寒毒全數接納','運氣調息慢慢調理','玄冥神掌'],['荒廢古墓 → 墓中石壁','深入最裡層的石壁','只查看入口附近','九陰白骨爪'],['少林藏經閣 → 藏經閣之夜','氣沉丹田，放聲長嘯','屏住氣息低聲誦念','獅子吼'],['天龍寺高僧 → 六道劍氣','兩脈齊開','一脈一脈慢慢打通','六脈神劍'],['思過崖老劍客 → 九式','正面硬拚','只攻一處破綻','獨孤九劍'],['無月之夜的槍客 → 影槍修煉','躍入竄出長槍的暗影','遠處觀察槍的軌跡','月影槍法'],['廢祠堂的鎖鏈 → 解開怨魂之鎖','徒手解開最粗的鎖鏈','從細鎖鏈慢慢解起','幽魂鎖'],['血色長鞭的老嫗 → 馴服長鞭','不惜見血全力揮鞭','只用手腕輕巧操鞭','血龍鞭'],['地下牢獄的老人 → 吞氣之法','一口氣接下真氣','分次一點一點接下','吸星大法'],['銀河之畔（天外天）','將手深深探入星光','只撿沖上岸邊的','星河劍法']]);
+
+table('#t-ev2',['奇緣','選項與結果'],[
+['懸崖下的山洞','跟著壁畫揮劍 → 流雲劍法；另有挖開墳墓、叩首三次等分支'],['冰封的劍客','研讀劍上招式 → 冰魄劍法'],['毒谷採藥人','治好他 → 萬毒手'],['猿腹中的經書','治療白猿 → 九陽神功'],['鏡中之劍（心魔界）','模仿鏡中的自己 → 以氣御劍術'],['廢棄的血教祭壇','翻開刀譜 → 血影刀法'],['武當山道人','請求指點 → 太清神功'],['洛陽算命師','看出你「活過兩世」，贈送一件物品'],['賭坊','下重注：銀兩翻倍或輸光；可從老千手法悟出指法'],['路旁的老人','分給水和乾糧 → 隱世高人灌內力；趕路要緊 → 銀兩'],['奇異的藥草','吃吃看 → 百年何首烏或腹痛；挖來賣 → 銀兩'],['遊方藥商','「大還丹」：可能是真品，也可能是麵粉丸'],['瀑布修煉','盤腿打坐 → 2 分鐘內內力 2 倍'],['遊方秘笈販子','付銀兩 → 殘頁或贗品；走過 → 幾枚銅錢'],['醉拳老人','請酒 → 悟武功或頭痛；不理會 → 小謝禮'],['鏢局護鏢委託','接下 → 全額或半額銀兩；婉拒 → 看切磋學招'],['血池','浸入 → 力量狂湧或被吞噬；池邊運氣 → 穩固內力'],['峨眉山的女尼','獲傳冰心訣'],['南宮世家的後人','繼承心法 → 蒼穹心法'],['黑衣女子','接過經書 → 九陰真經；封印經書 → 大量領悟'],['虛空商人（天外天）','付銀兩 → 裝備或一團雲；交出記憶 → 領悟'],['墜落的仙人（天外天）','攙扶他 → 靈獸召喚券＋寶物召喚券'],['前世的我（天外天）','握住手 → 領悟；甩開手 → 武功更進一層']]);
+
+table('#t-sect',['門派','所在','門下五人（依序）','隱居高手 / 前代','武功'],[
+['點蒼派','雲南蒼山','郭雲、葉青霞、方一平、歐陽蒼、掌門夏侯震','蒼山老人 / 蕭天翼','射日劍法'],['河北彭家','彭家莊','彭虎、彭少雄、彭大山、宇文剛、家主彭天霸','刀癡彭老人 / 彭無敵','五虎斷門刀'],['綠林','太行山總寨','馬三、黑熊張八、獨眼虎吳傑、鬼斧郭山、總寨主段鐵熊','斧頭婆婆 / 石萬里','開山斧法'],['青城派','四川青城山','林小風、何青松、嚴震、陰風司徒剛、掌門陳鶴鳴','摧心手嚴老人 / 青雲道人','摧心掌'],['崑崙派','崑崙山','白素雲、雲鶴、雪峰高震、冰劍衛清、掌門玄虛子','白雲子 / 雲龍真人','雲龍大八式 ＋ 上清無上神功'],['南蠻野獸宮','南蠻密林','小豹阿羅、野牛庫瑪、老蛇尼亞、黑熊奧都、宮主摩訶羅','密林之眼莎莎 / 百獸王達甘','百獸拳 ＋ 獸王心法'],['西藏布達拉宮','布達拉宮','達瓦、洛桑、丹增、金剛諾布、法王貢嘎','洞中行者米拉 / 龍象法王','大手印 ＋ 龍象般若功'],['慕容世家','姑蘇燕子塢','燕小青、尉遲雲、慕容震、鐵扇陳白、家主慕容天','慕容太夫人 / 慕容雲鶴','參合指 ＋ 斗轉星移']]);
+
+table('#t-gear',['部位','裝備（大致由低到高）'],[
+['兵器','生鏽鐵劍、青鋼劍、玄鐵重劍、倚天劍、軒轅劍、天魔劍、龍泉劍、天外神劍'],['衣服','麻布便服、青袍、金絲道袍、玄武甲衣、天蠶寶衣、天魔黑龍袍、九龍金袍、天衣無縫'],['飾品','木護符、青玉佩、白玉佩、血玉戒指、如意珠、天子玉璽、太極聖珠、天外天印']]);
+
+table('#t-pet',['靈獸','描述'],[
+['靈狐','放狐火的小狐狸，招來財富'],['金猿','模仿如意棒的金色猴子，身手敏捷'],['黑豹','—'],['青鶴','乘雲仙鶴，在旁呼吸清澈'],['白虎','西方神獸幼崽，爪帶寒氣'],['玄武','北方神獸，以水浪席捲敵人'],['朱雀','南方火鳥，振翅燃烈焰'],['青龍','東方神龍，匯聚天下之氣'],['黃龍','統御四神的金色神龍，雷電橫掃'],['九尾狐','千年狐，紫色狐火灼燒要害'],['麒麟','遨遊天外天的祥瑞神獸，提升一切之氣'],['白澤','通曉萬物之理，指出敵人破綻']]);
+
+table('#t-modes',['玩法','規則','主要產出'],[
+['秘境（金礦／精煉／靈物）','1 把鑰匙挑戰守護者 30 秒，勝利開下一階，失敗不扣鑰匙；每秘境每日補 2 把；可掃蕩','銀兩／精煉石／召喚券'],['武神塔','150 層（100 層武神、150 層武神·真）；每週一重置並換規則；失敗或超時下塔','層數獎勵、名號'],['比武大會','週一至週五 1v1；贏升一階、輸降一階，滿五階升等級；快勝升 2 階、一擊升 3 階；參賽證最多 3 張，每 2 小時回 1 張','晉級與每週獎勵'],['天外天','狩獵場盡頭後的無盡樓層；首登指定樓層得功勳；新紀錄每日可爬層數有上限','功勳、仙界境界'],['門派巡禮','每日用拜帖挑戰','門派武功、心法、時裝']]);
+</script>
+
+</body>
+</html>
